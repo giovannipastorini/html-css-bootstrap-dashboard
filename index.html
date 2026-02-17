@@ -69,8 +69,8 @@
     </header>
     <main>
         <div class="container-md">
-            <div class="row text-black px-3">
-                <div class="col-sm-12 col-lg-9 bg-light py-4">
+            <div class="row text-black px-3 py-4">
+                <div class="col-sm-12 col-lg-8 bg-light">
                      <div class="book-list">
                         <div id="book-list-header">
                           <div>
@@ -366,39 +366,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-3 bg-light">
+                <div class="col-sm-12 col-lg-4 bg-light">
                      <div class="card mb-4">
                       <div class="card-header bg-accent">
                         <h2>Todo</h2>
                       </div>
                       <div class="card-body">
                         <!-- todo-list -->
-                        <ul id="todo-list"> 
-                          <li>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                              <label class="form-check-label" for="checkDefault">
-                                Chiamare segreteria
-                              </label>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="checkChecked">
-                              <label class="form-check-label" for="checkChecked">
-                                Mandare avvisi prestiti scaduti
-                              </label>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="check-order">
-                              <label class="form-check-label" for="check-order">
-                                Ordinare nuovi libri
-                              </label>
-                            </div>
-                          </li>
-                        </ul>                        
+                          <ul class="list-group">
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                              <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                              <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                              <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                            </li>
+                          </ul>                    
                       </div>
                     </div>
                     <div class="card">

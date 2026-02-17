@@ -17,16 +17,3 @@
 .bg-accent{
     background-color: #f2f2f2;
 }
-
-.card{
-    min-width: 300px;
-}
-
-
-#todo-list{ 
-    list-style-type: none;
-    /* border: 1px solid black; */
-    .form-check{
-        min-width: 275px;
-    }
-}
