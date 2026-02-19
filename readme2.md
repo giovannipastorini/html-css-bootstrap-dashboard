@@ -1,4 +1,5 @@
-Descrizione
+Descrizione:
+
 Aggiungiamo una nuova pagina alla dashboard seguendo gli screenshot allegati (cartella: screenshots-new-book).
 La richiesta è realizzarlo utilizzando il form e i campi html con Bootstrap 5.
 Teniamo sempre sotto mano la documentazione della libreria per usare le caratteristiche principali nel modo corretto. Potrebbero tornarci utili anche componenti, classi helper, utilities etc.
