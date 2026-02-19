@@ -79,28 +79,36 @@
                                     <label for="book-title" class="form-label">Titolo</label>
                                     <input type="text" class="form-control" id="book-title" placeholder="Inserisci il titolo del libro" aria-describedby="titleHelpBlock">
                                     <div id="titleHelpBlock" class="form-text">
-                                        Titolo versione ialiana
+                                        Titolo versione italiana
                                     </div>
                             </div> 
                           </div>
                         </div>
-                        <div class="row">
+                        <div class="row mb-3 gx-4 gy-3">
                           <div class="col-12 col-lg-4">
-                            <!-- gender input -->
-                             <p>lorem</p>
+                            <!-- gender input select -->
+                            <label for="gender-select" class="form-label">Genere</label>
+                            <select  id="gender-select" class="form-select" aria-label="Default select example">
+                              <option selected>Scegli il genere</option>
+                              <option value="1">uomo</option>
+                              <option value="2">donna</option>
+                            </select>
                           </div>
                           <div class="col-12 col-lg-4">
-                            <!-- year of publishing -->
-                             <p>lorem</p>
+                            <!-- year of publication input -->
+                            <label for="year-pub" class="form-label">Anno di pubblicazione</label>
+                            <input type="number" class="form-control" id="year-pub" placeholder="Inserisci l'anno">
                           </div>
                           <div class="col-12 col-lg-4">
-                            <!-- insert ISBN -->
-                             <p>lorem</p>
+                            <!-- input ISBN -->
+                             <label for="isbn" class="form-label">ISBN#</label>
+                             <input type="number" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
                           </div>
                         </div>
 
 
                         <!-- bottone d'invio -->
+
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                     <!--  -->
